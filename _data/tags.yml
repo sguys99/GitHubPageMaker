@@ -2,14 +2,22 @@ machine-learning:
   name: machine-learning
   description: False
   cover: assets/images/speeches.jpg
+data-science:
+  name: data-science
+  description: False
+  cover: assets/images/main-cover-ds.jpg
+algorithmic-trading:
+  name: algorithmic-trading
+  description: False
+  cover: assets/images/main-cover-trading.jpg
 it-tips :
   name: it-tips
   description: False
-  cover: assets/images/speeches.jpg
+  cover: assets/images/main-cover-tips.jpg
 diary :
   name: diary
   description: False
-  cover: assets/images/speeches.jpg
+  cover: assets/images/main-cover-diary.jpg
 speeches:
   name: speeches
   description: Some of the greatest words ever spoken.

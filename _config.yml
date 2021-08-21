@@ -10,7 +10,7 @@ words_per_minute: 200
 baseurl: /
 
 # Website info
-title: Welcome to happy plant
+title: Happy Plant
 description: Data science, Machine learning, and Automatic control
 cover: assets/images/main-cover.jpg
 #logo: assets/images/blog-icon.png
