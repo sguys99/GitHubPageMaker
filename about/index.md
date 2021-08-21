@@ -9,7 +9,7 @@ subclass: 'post page'
 ---
 **Happy plant** is my personal research blog for data science, machine learning, and automatic control.
 Please refer to my resume and research interests. And I am passionately looking forward to sharing and collaborating with you on these topics.
-####
+
 
 ### Name : 
 - Kwang-Myung Yu
