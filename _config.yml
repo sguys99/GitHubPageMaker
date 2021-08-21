@@ -71,17 +71,20 @@ feed:
 safe: False
 lsi: False
 
-username: jekyllt
-repo: jasper2
+username: sguys99 #github의 유저네임
+repo: GitHubPageMaker #travis와 연동하는 리포
 
 branch: master
 #relative_source: ../jasper2/
 relative_source:
 
-destination: ../[GitHubPage]/
+#destination: ../[GitHubPage]/
+destination: ./output/
 
-production_url:  https://jekyllt.github.io/jasper2/
-source_url:  https://github.com/jekyllt/jasper2/
+url: https://sguys99.github.io/
+
+production_url: https://sguys99.github.io/
+source_url: https://github.com/sguys99/GitHubPageMaker
 
 exclude:
   - assets/css
