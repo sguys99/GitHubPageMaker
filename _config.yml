@@ -30,7 +30,7 @@ facebook: dbrhkdaud # replace by your username
 linkedin: kmyu99
 github: sguys99
 
-#comments: true
+comments: True
 # Disqus
 disqus: True
 disqus_shortname: sguys99 # replace with your disqus username

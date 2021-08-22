@@ -6,6 +6,7 @@ navigation: true
 logo: 'assets/images/ghost.png'
 class: page-template
 subclass: 'post page'
+disqus: true
 ---
 
 > I was born in 1980.  
