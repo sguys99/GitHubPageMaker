@@ -28,6 +28,7 @@ subscribers: True # you need to connect an external service for this to work,
 twitter: sguys99 # replace by your username
 facebook: dbrhkdaud # replace by your username
 linkedin: kmyu99
+github: sguys99
 
 # Disqus
 disqus: False
