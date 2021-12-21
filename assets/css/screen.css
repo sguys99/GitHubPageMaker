@@ -745,7 +745,7 @@ The first (most recent) post in the list is styled to be bigger than the others 
 .post-full-content img,
 .post-full-content video {
     display: block;
-    margin: 1.5em auto;
+    margin: 0.6em auto;/*이미지 마진 수정*/
     max-width: 1040px;
 }
 @media (max-width: 1040px) {
@@ -1036,18 +1036,28 @@ Usage (In Ghost editor):
 
 .post-full-content table th {
     color: var(--darkgrey);
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     font-weight: 700;
     letter-spacing: 0.2px;
-    text-align: left;
-    text-transform: uppercase;
+    text-align: right;/*배치 수정 left -> right*/
+    /*text-transform: uppercase;*/ /*대문자 변환 사용안함*/
     background-color: color(var(--whitegrey) l(+4%));
+}
+
+.post-full-content table td {/*새롭게 추가 dataframe, table 표시 때문에*/
+    color: var(--darkgrey);
+    font-size: 1.4rem;
+    font-weight: 500;
+    letter-spacing: 0.2px;
+    text-align: right;/*배치 수정 left -> right*/
+    /*text-transform: uppercase;*/ /*대문자 변환 사용안함*/
+    /*background-color: color(var(--whitegrey) l(+4%));*/
 }
 
 .post-full-content table th,
 .post-full-content table td {
-    padding: 6px 12px;
-    border: color(var(--whitegrey) l(-1%) s(-5%)) 1px solid;
+padding: 6px 12px;
+border: color(var(--whitegrey) l(-1%) s(-5%)) 1px solid;
 }
 
 
