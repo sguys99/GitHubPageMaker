@@ -807,11 +807,12 @@ Usage (In Ghost editor):
     margin-bottom: 0;
 }
 
-.post-full-content code {
+.post-full-content code {/* 코드 하이라이트 수정*/
     padding: 0 5px 2px;
-    font-size: 0.8em;
+    font-family: 'Noto Sans KR', 'Nanum Gothic', serif;
+    font-size: 1.7rem; /* 사이즈 수정*/
     line-height: 1em;
-    font-weight: 400!important;
+    font-weight: 700!important;
     background: var(--whitegrey);
     border-radius: 3px;
 }
