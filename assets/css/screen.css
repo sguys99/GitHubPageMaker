@@ -627,8 +627,9 @@ The first (most recent) post in the list is styled to be bigger than the others 
     padding: 70px 100px 0;
     min-height: 230px;
     font-family: 'Noto Sans KR', 'Nanum Gothic', serif;
-    font-size: 1.7rem;
-    line-height: 1.6em;
+    font-size: 1.7rem; /* 사이즈 수정*/
+    font-weight: bold;/* 진하게*/
+    line-height: 1.8em;/* 줄간격*/
     background: #fff;
 }
 
@@ -817,7 +818,7 @@ Usage (In Ghost editor):
 
 .post-full-content pre {
     overflow-x: auto;
-    margin: 1.5em 0 3em;
+    margin: 1.5em 0 1.8em; /*아래 공백 수정*/
     padding: 20px;
     max-width: 100%;
     border: color(var(--darkgrey) l(-10%)) 1px solid;
@@ -873,6 +874,7 @@ Usage (In Ghost editor):
 
 .post-full-content h1 {
     margin: 0.5em 0 0.2em 0;
+    font-family: 'Noto Sans KR', 'Nanum Gothic', serif;/* 폰트추가*/
     font-size: 4.6rem;
     font-weight: 700;
 }
@@ -884,6 +886,7 @@ Usage (In Ghost editor):
 
 .post-full-content h2 {
     margin: 0.5em 0 0.2em 0;
+    font-family: 'Noto Sans KR', 'Nanum Gothic', serif;/* 폰트추가*/
     font-size: 3.6rem;
     font-weight: 700;
 }
@@ -893,10 +896,12 @@ Usage (In Ghost editor):
     }
 }
 
-.post-full-content h3 {
-    margin: 0.5em 0 0.2em 0;
-    font-size: 2.8rem;
-    font-weight: 700;
+.post-full-content h3 {/* post의 h3 수정*/
+    margin: 0.5em 0 0.4em 0;
+    font-family: 'Noto Sans KR', 'Nanum Gothic', serif;/* 폰트추가*/
+    font-size: 2.8rem; /* 사이즈 수정*/
+    font-weight: 800;   /* 진하게 수정*/
+    line-height: 1.4em;
 }
 @media (max-width: 500px) {
     .post-full-content h3 {
@@ -906,6 +911,7 @@ Usage (In Ghost editor):
 
 .post-full-content h4 {
     margin: 0.5em 0 0.2em 0;
+    font-family: 'Noto Sans KR', 'Nanum Gothic', serif;/* 폰트추가*/
     font-size: 2.8rem;
     font-weight: 700;
 }
@@ -993,16 +999,16 @@ Usage (In Ghost editor):
 }
 
 /* Tables */
-.post-full-content table {
+.post-full-content table { /*테이블, pandas dataframe관련*/
     display: inline-block;
     overflow-x: auto;
-    margin: 0.5em 0 2.5em;
+    margin: 0.5em 0 2.0em;/*아래쪽 마진 수정 2.5 -> 2.0*/
     max-width: 100%;
     width: auto;
     border-spacing: 0;
     border-collapse: collapse;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-    font-size: 1.6rem;
+    font-family: 'Noto Sans KR', 'Nanum Gothic', serif;
+    font-size: 1.4rem;/*폰트 수정 1.6->1.4*/
     white-space: nowrap;
     vertical-align: top;
 }
