@@ -428,6 +428,7 @@ h6 {
     margin-top: 0;
     line-height: 1.15;
     font-weight: 700;
+    font-family: 'Noto Sans KR', 'Nanum Gothic', serif;/*메인화면 제목 폰트 수정*/
     text-rendering: optimizeLegibility;
 }
 
@@ -444,7 +445,7 @@ h1 {
 
 h2 {
     margin: 1.5em 0 0.5em 0;
-    font-size: 2rem;
+    font-size: 1.8rem;/*메인화면 제목 폰트 사이즈 수정*/
 }
 @media (max-width: 500px) {
     h2 {

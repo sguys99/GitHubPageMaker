@@ -230,6 +230,7 @@ The knock-on effect of this is ugly browser-scroll bars at the bottom, so 80px o
     padding: 11px 0;
     color: #fff;
     font-size: 1.7rem;
+    font-family: 'Noto Sans KR', 'Nanum Gothic', serif;/*상단 로고 폰트*/
     line-height: 1em;
     font-weight: bold;
     letter-spacing: -0.5px;
@@ -627,9 +628,9 @@ The first (most recent) post in the list is styled to be bigger than the others 
     padding: 70px 100px 0;
     min-height: 230px;
     font-family: 'Noto Sans KR', 'Nanum Gothic', serif;
-    font-size: 1.7rem; /* 사이즈 수정*/
-    font-weight: bold;/* 진하게*/
-    line-height: 1.8em;/* 줄간격*/
+    font-size: 1.6rem; /* 사이즈 수정*/
+    font-weight: 550;/* 수정*/
+    line-height: 1.9em;/* 줄간격*/
     background: #fff;
 }
 
@@ -714,7 +715,8 @@ The first (most recent) post in the list is styled to be bigger than the others 
 }
 
 .post-template .kg-card-markdown > p:first-child {
-    font-size: 1.25em;
+    font-size: 1.6rem; /* 사이즈 수정*/
+    font-weight: 700;/* 수정*/
     line-height: 1.5em;
 }
 
