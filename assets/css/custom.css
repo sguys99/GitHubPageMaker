@@ -63,7 +63,7 @@ ul.table-of-contents-list, ol.table-of-contents-list {
 
 ul.table-of-contents-list li, ol.table-of-contents-list li {
     padding: 0px 0px 5px 5px;
-    margin-bottom: 5px;
+    margin-bottom: 20px;/*리스트 아래공백 수정 5->20*/
     font-size: 15px;
 }
 
