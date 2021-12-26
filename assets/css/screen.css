@@ -695,7 +695,7 @@ The first (most recent) post in the list is styled to be bigger than the others 
 .post-full-content h4,
 .post-full-content h5,
 .post-full-content h6,
-.post-full-content p,
+/*.post-full-content p,*/ /*포스트 폰트 변경위해 생략*/
 .post-full-content ul,
 .post-full-content ol,
 .post-full-content dl,
@@ -704,6 +704,15 @@ The first (most recent) post in the list is styled to be bigger than the others 
 .post-full-comments,
 .footnotes {
     min-width: 100%;
+}
+
+.post-full-content p {/*포스트 폰트 변경위해 추가*/
+
+    min-width: 100%;
+    font-family: 'Noto Sans KR', 'Nanum Gothic', serif;
+    font-size: 1.6rem; /* 사이즈 수정*/
+    font-weight: 550;/* 수정*/
+    line-height: 1.9em;/* 줄간격*/
 }
 
 .post-full-content li {
