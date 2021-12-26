@@ -717,6 +717,7 @@ The first (most recent) post in the list is styled to be bigger than the others 
 
 .post-full-content li {
     word-break: break-word;
+    font-size: 1.6rem; /* 포스트에 작성되는 리스트 사이즈 수정*/
 }
 
 .post-full-content li p {
