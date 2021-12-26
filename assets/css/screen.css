@@ -159,7 +159,7 @@ body {
     z-index: 10;
     margin: 0;
     padding: 0;
-    font-size: 3.8rem;
+    font-size: 3.4rem;/*메인화면 사이즈 조정 3.8 -> 3.4*/
     font-weight: 700;
 }
 
@@ -170,7 +170,7 @@ body {
 .site-description {
     z-index: 10;
     margin: 0;
-    padding: 5px 0;
+    padding: 15px 0;/*메인화면 description글 공백 0.5 -> 15*/
     font-size: 2.2rem;
     font-weight: 300;
     letter-spacing: 0.5px;
