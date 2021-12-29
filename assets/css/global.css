@@ -434,7 +434,7 @@ h6 {
 
 h1 {
     margin: 0 0 0.5em 0;
-    font-size: 5rem;
+    font-size: 3.5rem;/*포스트 제목 폰트 사이즈 수정 5->3.5*/
     font-weight: 700;
 }
 @media (max-width: 500px) {
