@@ -1425,6 +1425,7 @@ border: color(var(--whitegrey) l(-1%) s(-5%)) 1px solid;
     background: rgba(255,255,255,0.95);
     transition: all 500ms cubic-bezier(0.19, 1, 0.22, 1);
     transform: translate3d(0, -120%, 0);
+    font-family: 'Noto Sans KR', 'Nanum Gothic', serif; /*floating header 폰트 추가*/
 }
 
 .floating-active {
