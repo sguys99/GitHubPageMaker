@@ -336,7 +336,7 @@ ul,
 ol,
 dl,
 blockquote {
-    margin: 0.8em 0 0.8em 0; /*위0->0.8, 아래쪽 여백 수정*/
+    margin: 0.5em 0 0.5em 0; /*위0->0.5, 아래쪽 여백 수정*/
 }
 
 ol,

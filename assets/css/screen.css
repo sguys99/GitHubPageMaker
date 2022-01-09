@@ -831,8 +831,8 @@ Usage (In Ghost editor):
 
 .post-full-content pre {
     overflow-x: auto;
-    margin: 0.5em 0 0.5em; /*코드블록 공백 수정 1.5->0.5*/
-    padding: 20px;
+    margin: 0.3em 0 0.3em; /*코드블록 공백 수정 1.5->0.3*/
+    padding: 8px 20px; /*코드블록 공백 수정 20px -> 8px, 20px*/
     max-width: 100%;
     border: color(var(--darkgrey) l(-10%)) 1px solid;
     color: var(--whitegrey);
