@@ -9,8 +9,7 @@ subclass: 'post page'
 disqus: true
 ---
 
-> I was born in 1980.  
-> And I still code...  
+> I was born in 1980. *And I still code...*  
   
   
 **Happy plant** is my personal research blog for **data science**, **machine learning**, and **automatic control**.
@@ -29,11 +28,12 @@ Please refer to my resume and research interests. And I am passionately looking 
 - 2nd prize of the power plant big data AI competition, Korea East-West Power Corporation, 2020
 - Best employee award, KEPCO research institute, 2018
 - Academic excellent student, Pusan national university, 2003 ~ 2006
-- Lecture
+- Lectures & publications
+    - git for visual studio, WikiDocs, 2021, [[link]](https://wikidocs.net/book/7060)
     - Data science basics for ICT employees, KEPCO, 2019
     - Control system tuning and data analytics, KITI, 2014 ~ 2020
 - Activities
-    - **Github :** love your data [[Click here]](https://github.com/sguys99)
+    - **Github :** love your data [[link]](https://github.com/sguys99)
     - **Turtles :** AI for algorithmic trading [[Github]](https://github.com/turtles3040)  
   
 ### Contact
