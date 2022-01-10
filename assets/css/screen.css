@@ -821,10 +821,10 @@ Usage (In Ghost editor):
 
 .post-full-content code {/* 코드 하이라이트 수정*/
     padding: 0 5px 2px;
-    font-family: 'Noto Sans KR', 'Nanum Gothic', serif;
-    font-size: 1.6rem; /* 사이즈 수정*/
+    font-family: Monaco, Consolas, monospace;/*코드 구문 위해 추가*/
+    font-size: .9em;/* 사이즈 수정*/
     line-height: 1em;
-    font-weight: 700!important;
+    font-weight: 500!important;/* 사이즈 수정*/
     background: var(--whitegrey);
     border-radius: 3px;
 }

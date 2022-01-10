@@ -120,6 +120,9 @@ production stylesheet in assets/built/screen.css
     overflow-x: auto;
     max-width: 100%;
     min-width: 100%;
+    font-family: Monaco, Consolas, monospace;/*코드 구문 위해 추가*/
+    font-size: .9em;/*코드 구문 위해 추가*/
+    border-radius: 4px;/*코드 구문 위해 추가*/
 }
 
 figure.highlight,
