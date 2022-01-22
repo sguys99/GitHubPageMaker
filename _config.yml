@@ -91,7 +91,7 @@ source_url: https://github.com/sguys99/GitHubPageMaker
 
 exclude:
   - assets/css
-  - node_modules
+#  - node_modules
   - vendor
   - .travis.yml
   - Gemfile
